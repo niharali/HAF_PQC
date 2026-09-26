@@ -1,0 +1,9 @@
+numpy
+pandas
+scipy
+matplotlib
+cryptography
+pytest
+python-docx
+psutil
+liboqs-python

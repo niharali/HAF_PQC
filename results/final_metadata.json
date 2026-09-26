@@ -1,0 +1,31 @@
+{
+    "backend": {
+        "ML-KEM-768": {
+            "family": "Lattice",
+            "available": false,
+            "backend": "liboqs",
+            "notes": "liboqs unavailable: No module named 'oqs'"
+        },
+        "HQC": {
+            "family": "Code-based",
+            "available": false,
+            "backend": "liboqs",
+            "notes": "liboqs unavailable: No module named 'oqs'"
+        },
+        "Classic-McEliece": {
+            "family": "Code-based",
+            "available": false,
+            "backend": "liboqs",
+            "notes": "liboqs unavailable: No module named 'oqs'"
+        },
+        "X25519": {
+            "family": "Elliptic Curve",
+            "available": true,
+            "backend": "cryptography",
+            "notes": ""
+        }
+    },
+    "policy_hash": "d5f95bb4f13ed58d05e6085410f755fe1ac1db2aa763b26bf7d0af3e6a871e7e",
+    "completed": true,
+    "time": 1790414375.5075543
+}

@@ -1,0 +1,146 @@
+{
+    "directories": {
+        "src/haf_pqc": true,
+        "results": true,
+        "results/raw": true,
+        "results/processed": true,
+        "figures": true,
+        "docs": true,
+        "tests": true
+    },
+    "result_files": {
+        "results/raw/session_metrics.csv": true,
+        "results/raw/security_simulation.csv": true,
+        "results/raw/recovery_metrics.csv": true,
+        "results/processed/statistical_summary.json": true,
+        "results/processed/ablation_results.csv": true,
+        "results/final_metadata.json": true
+    },
+    "csv_validation": {
+        "results/raw/session_metrics.csv": {
+            "valid": true,
+            "rows": 36000,
+            "columns": [
+                "algorithm",
+                "seed",
+                "session_id",
+                "success",
+                "keygen_ms",
+                "encapsulation_ms",
+                "decapsulation_ms",
+                "total_latency_ms",
+                "public_key_bytes",
+                "ciphertext_bytes",
+                "shared_secret_bytes",
+                "communication_bytes",
+                "throughput_sessions_per_second",
+                "error"
+            ]
+        },
+        "results/raw/security_simulation.csv": {
+            "valid": true,
+            "rows": 30000,
+            "columns": [
+                "scenario",
+                "configuration",
+                "trial",
+                "survived",
+                "failure_probability",
+                "exposure_score"
+            ]
+        },
+        "results/processed/ablation_results.csv": {
+            "valid": true,
+            "rows": 6,
+            "columns": [
+                "configuration",
+                "survival_probability"
+            ]
+        }
+    },
+    "figures": {
+        "png": {
+            "count": 14,
+            "files": [
+                "Fig01_Latency_Comparison.png",
+                "Fig02_Session_Latency.png",
+                "Fig03_Communication_Overhead.png",
+                "Fig04_Throughput.png",
+                "Fig05_Survival_Probability.png",
+                "Fig06_Exposure_Simulation.png",
+                "Fig07_Family_Correlation.png",
+                "Fig08_Dependency_Failure.png",
+                "Fig09_Optimization_Surface.png",
+                "Fig10_Cost_Risk.png",
+                "Fig11_Confidence_Intervals.png",
+                "Fig12_Recovery_Performance.png",
+                "Fig13_Ablation_Analysis.png",
+                "Fig14_Risk_Budget.png"
+            ]
+        },
+        "svg": {
+            "count": 14,
+            "files": [
+                "Fig01_Latency_Comparison.svg",
+                "Fig02_Session_Latency.svg",
+                "Fig03_Communication_Overhead.svg",
+                "Fig04_Throughput.svg",
+                "Fig05_Survival_Probability.svg",
+                "Fig06_Exposure_Simulation.svg",
+                "Fig07_Family_Correlation.svg",
+                "Fig08_Dependency_Failure.svg",
+                "Fig09_Optimization_Surface.svg",
+                "Fig10_Cost_Risk.svg",
+                "Fig11_Confidence_Intervals.svg",
+                "Fig12_Recovery_Performance.svg",
+                "Fig13_Ablation_Analysis.svg",
+                "Fig14_Risk_Budget.svg"
+            ]
+        },
+        "pdf": {
+            "count": 14,
+            "files": [
+                "Fig01_Latency_Comparison.pdf",
+                "Fig02_Session_Latency.pdf",
+                "Fig03_Communication_Overhead.pdf",
+                "Fig04_Throughput.pdf",
+                "Fig05_Survival_Probability.pdf",
+                "Fig06_Exposure_Simulation.pdf",
+                "Fig07_Family_Correlation.pdf",
+                "Fig08_Dependency_Failure.pdf",
+                "Fig09_Optimization_Surface.pdf",
+                "Fig10_Cost_Risk.pdf",
+                "Fig11_Confidence_Intervals.pdf",
+                "Fig12_Recovery_Performance.pdf",
+                "Fig13_Ablation_Analysis.pdf",
+                "Fig14_Risk_Budget.pdf"
+            ]
+        }
+    },
+    "tables": {
+        "count": 12,
+        "files": [
+            "ablation_table.csv",
+            "baseline_comparison.csv",
+            "communication_comparison.csv",
+            "recovery_comparison.csv",
+            "security_comparison.csv",
+            "statistical_summary.csv",
+            "Table1_Baseline_Performance.csv",
+            "Table2_Communication_Overhead.csv",
+            "Table3_Security_Resilience.csv",
+            "Table4_Recovery_Performance.csv",
+            "Table5_Statistical_Summary.csv",
+            "Table6_Ablation_Study.csv"
+        ]
+    },
+    "metadata": {
+        "valid": true,
+        "keys": [
+            "backend",
+            "policy_hash",
+            "completed",
+            "time"
+        ]
+    }
+}

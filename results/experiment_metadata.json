@@ -1,0 +1,30 @@
+{
+    "system": {
+        "operating_system": "Windows-11-10.0.26200-SP0",
+        "machine": "AMD64",
+        "processor": "AMD64 Family 25 Model 80 Stepping 0, AuthenticAMD",
+        "python_version": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+        "python_executable": "D:\\Research\\SCI Paper\\20260926 Paper 1\\HAF_PQC_Phase2\\venv\\Scripts\\python.exe"
+    },
+    "dependencies": {
+        "numpy": "2.5.3",
+        "pandas": "3.0.6",
+        "scipy": "1.18.1",
+        "matplotlib": "3.11.2",
+        "cryptography": "50.0.1",
+        "pytest": "9.1.1",
+        "liboqs-python": "not_installed"
+    },
+    "random_seed": 42,
+    "configuration": {
+        "framework": "HAF-PQC",
+        "benchmark_sessions": 3000,
+        "algorithms": [
+            "ML-KEM-768",
+            "HQC",
+            "Classic-McEliece",
+            "X25519"
+        ]
+    },
+    "git_commit": "not_available"
+}

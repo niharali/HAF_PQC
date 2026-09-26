@@ -1,0 +1,49 @@
+[build-system]
+
+requires = [
+    "setuptools>=65",
+    "wheel"
+]
+
+build-backend = "setuptools.build_meta"
+
+
+
+[project]
+
+name = "haf-pqc"
+
+version = "1.0.0"
+
+description = "Heterogeneous Algorithm Fusion for Post Quantum Cryptography"
+
+requires-python = ">=3.10"
+
+
+dependencies = [
+
+"numpy",
+
+"pandas",
+
+"scipy",
+
+"matplotlib",
+
+"cryptography",
+
+"pytest",
+
+"psutil"
+
+]
+
+
+
+[tool.pytest.ini_options]
+
+pythonpath = [
+
+"."
+
+]

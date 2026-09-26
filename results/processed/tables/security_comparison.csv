@@ -1,0 +1,4 @@
+scenario,survival_probability
+correlated,0.9035
+dependency,0.8949
+independent,0.9993

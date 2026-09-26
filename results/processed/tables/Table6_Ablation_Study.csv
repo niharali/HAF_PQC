@@ -1,0 +1,7 @@
+configuration,survival_probability
+Full HAF-PQC,1.0
+Without Diversity,0.85
+Without PBSF,0.9
+Without Adaptive Selection,0.8
+Without Recovery,0.85
+Without Correlation Model,1.0

@@ -1,0 +1,10 @@
+{
+    "sessions": 3000,
+    "warmup_runs": 50,
+    "random_seeds": [
+        1,
+        2,
+        3
+    ],
+    "measurement": "real cryptographic execution"
+}

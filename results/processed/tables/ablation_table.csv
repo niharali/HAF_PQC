@@ -1,0 +1,7 @@
+configuration,latency_ms,survival_probability,communication_bytes,security_features
+Full HAF-PQC,6,1.0,400,"FARE,PBSF,CIR,Correlation"
+Without Diversity,7,0.75,300,"PBSF,CIR,Correlation"
+Without PBSF,7,0.75,300,"FARE,CIR,Correlation"
+Without Adaptive Selection,8,0.5,200,"PBSF,CIR"
+Without CIR,8,0.5,200,"FARE,PBSF"
+Without Correlation,7,0.75,300,"FARE,PBSF,CIR"
